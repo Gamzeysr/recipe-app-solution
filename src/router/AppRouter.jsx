@@ -21,6 +21,9 @@ const AppRouter = () => {
         <Route path="about" element={<PrivateRouter />}>
           <Route path="" element={<About />} />
         </Route>
+        //!👆 Burada kullanıcı abouta tıkladıgı anda ilk bi PrivateRouter sayfasına yönlendireceğimiz için element içine PrivateRouter sayfasına yönlendirdik ilk önce.
+        <Route path="" element={<About />} />
+        {/* Burada kullanıcı about sayfasına tıklıyor PrivateRouter a yönlendiriyoruz kullanıcıya diyoruz ki PrivateRouter sayfasında senin giriş iznin var mı vasrsa abouta git yoksa  */}
         <Route path="detail" element={<PrivateRouter />}>
           <Route path="" element={<Detail />} />
         </Route>
