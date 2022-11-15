@@ -13,6 +13,8 @@ import { useNavigate } from "react-router-dom"
 //👆burada useNavigate Hookunu kullanarak gitmesni istediğimiz yere yönlendiriyoruz. 
 // oyüzden usenavigate hookunu reactrouterdomdan import ettik 
 import meal from "../../assets/meal.svg";
+
+
 const Login = () => {
 
   const navigate = useNavigate();

@@ -7,6 +7,7 @@ const Nav = styled(Flex)`
   padding: 1rem 1.5rem;
   background-color: ${({ theme }) => theme.colors.navbarBgColor};
 `;
+//! 👆 Bu theme i alıp prop yöntemiyle ya appRoutera ya da app.js ye göndermemiz lazım.
 
 export const Brand = styled(Link)`
 /* Linkimi recat router domdan import ediyorum  */
