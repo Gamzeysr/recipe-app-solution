@@ -1,6 +1,6 @@
-## https://recipe-app-solution-gmz-react.vercel.app/
+![Adsız tasarım (2)](https://user-images.githubusercontent.com/108168084/202283162-b1118609-afcb-4cf2-a919-3a19717b5a14.gif)
 
-
+✨✨🎉  ## https://recipe-app-solution-gmz-react.vercel.app/
 
 # Getting Started with Create React App
 
