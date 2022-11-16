@@ -27,7 +27,7 @@ const Login = () => {
     e.preventDefault();
     sessionStorage.setItem("user", JSON.stringify(userInfo))
     // 👆Bunu user var mı yokmu onu bilmek için yaptık 
-    navigate(-1)
+    navigate("/")
     // 👆Burada navigate yaparak bir önceki sayfama yönlendrdim.
     // Buradaki navigate(-1) in calısması useNavigate i buraya cagırarak bunu sağladık 
   }
