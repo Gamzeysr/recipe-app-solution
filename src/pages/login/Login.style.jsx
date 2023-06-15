@@ -1,16 +1,14 @@
-import styled from 'styled-components';
-import { Flex } from '../../components/globalStyles/Flex.style';
-
-
+import styled from "styled-components";
+import { Flex } from "../../components/globalStyles/Flex.style";
 
 export const LoginContainer = styled(Flex)`
   height: 100vh;
-  background-image: url('https://picsum.photos/1600/900');
+  background-image: url("https://picsum.photos/1600/900");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-/*👆 1-Burası resimin arka plan tarafı  */
-/* 👆 Burasını Login.jsx de sarmallıcaz  */
+  // 👆 Burası loginde ki arka plan
+  /* 👆 Burasını Login.jsx de sarmallıcaz  */
 `;
 
 export const FormContainer = styled(Flex)`
@@ -29,7 +27,9 @@ export const Header = styled.h1`
   color: white;
   font-size: 3rem;
 `;
-{/* 👆<CW/>RECIPE baslıgını burada olusturmaya calıstık  */ }
+{
+  /* 👆<CW/>RECIPE baslıgını burada olusturmaya calıstık  */
+}
 
 export const StyledInput = styled.input`
   height: 3rem;
@@ -49,7 +49,6 @@ export const StyledForm = styled.form`
 `;
 
 export const StyledButton = styled.button`
-
   font-size: 2rem;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
@@ -61,7 +60,7 @@ export const StyledButton = styled.button`
     opacity: 0.8;
   }
 `;
-//👆 Button kısmı 
+//👆 Button kısmı
 
 export const StyledImg = styled.img`
   width: 150px;
