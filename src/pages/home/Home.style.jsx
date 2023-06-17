@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { Flex } from '../../components/globalStyles/Flex.style';
+import styled from "styled-components";
+import { Flex } from "../../components/globalStyles/Flex.style";
 
-import Home from './Home';
+import Home from "./Home";
 
 export const HeaderContainer = styled(Flex)`
   background: ${({ theme }) => theme.colors.mainColor};
@@ -61,21 +61,21 @@ export const Select = styled.select`
 `;
 
 export const ImgDiv = styled.div`
-  display:flex;
-  justify-content:center;
-  margin:1.5rem;
-  `;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+`;
 
 export const HomeImg = styled.img`
-  width:80%;
-  max-width:750px;
-  `;
-//!✨ ImgDiv i ve HomeImg ikiside resim şimdi bunları Home.jsx de kullancaz  
+  width: 80%;
+  max-width: 750px;
+`;
+//!✨ ImgDiv i ve HomeImg ikiside resim şimdi bunları Home.jsx de kullancaz
 
 export const HeaderText = styled.h1`
-    font-size: 2.5rem;
-    color: red;
-    text-align: center;
-  `;
+  font-size: 2.5rem;
+  color: red;
+  text-align: center;
+`;
 
 // Bu export hizasındaki sarı isimlerş her birini component olarak düşün 👆
